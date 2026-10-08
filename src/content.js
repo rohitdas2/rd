@@ -11,9 +11,10 @@ export const sections = [
   {
     id: 'about',
     label: 'About',
-    title: 'A few things about me',
+    title: 'Some things about me',
     items: [
-      { text: 'I’m from Boulder Colorado and I love the outdoors' },
+      { text: 'Grew up in Boulder, CO' },
+      { text: 'Went to Michigan because it\'s a basketball school' },
       { text: 'I’m working on building a project called Sapor' },
       { text: 'You can always find me cooking' },
     ],
@@ -21,7 +22,7 @@ export const sections = [
   {
     id: 'values',
     label: 'Values',
-    title: 'Things I believe',
+    title: 'Some things I believe:',
     items: [
       {
         text: 'A value I live by is honor',
@@ -31,16 +32,16 @@ export const sections = [
         ],
       },
       {
-        text: '[An idea I keep coming back to.]',
-        children: [{ text: '[An experience that shaped how I see it.]' }],
+        text: 'The meaning of life',
+        children: [{ text: 'I\'s something you find through living and is different for everyone. You make your own meaning' }],
       },
-      { text: '[Something I’m still figuring out.]' },
+      { text: 'I’m still trying to figure out the future of computer science due to the novelty of AI' },
     ],
   },
   {
     id: 'cooking',
     label: 'Cooking',
-    title: 'Things I cook',
+    title: 'Some things I cook',
     items: [
       {
         text: 'Peanut Butter Glazed Sweet Potatoes',
