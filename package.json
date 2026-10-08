@@ -1,12 +1,13 @@
 {
-  "name": "rd-personal-website",
+  "name": "rd",
   "private": true,
   "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
     "build": "vite build",
-    "preview": "vite preview --host 127.0.0.1"
+    "preview": "vite preview --host 127.0.0.1",
+    "build:pages": "vite build --outDir docs && node scripts/prepare-pages.mjs"
   },
   "dependencies": {
     "react": "^19.3.0",

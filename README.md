@@ -1,4 +1,4 @@
-# rd-personal-website
+# rd
 
 A small React + Vite starter for Rohit's personal website, inspired by the simple typography and nested lists at https://nat.org. Includes About, Values, and Cooking sections. All bracketed copy is intentionally a placeholder.
 
@@ -40,4 +40,19 @@ npm run build
 npm run preview
 ```
 
-The production website is generated in `dist/`. This project has no backend, account system, analytics, or external font requests. Content changes are made in the source files; hosting is configured through Sites in `.openai/hosting.json`.
+The production website is generated in `dist/`. This project has no backend, account system, analytics, or external font requests. Content changes are made in the source files; the original Sites hosting configuration is retained in `.openai/hosting.json`.
+
+## GitHub Pages
+
+The website is named **rd**. Repository: https://github.com/rohitdas2/rd
+
+GitHub Pages serves the committed `docs/` folder from `main`. To publish future content edits:
+
+```sh
+npm run build:pages
+git add src index.html docs
+git commit -m "Update website"
+git push origin main
+```
+
+Rebuild before pushing so the published files match your source. `npm run build` still creates the local `dist/` build. The local folder remains `rd-personal-website`.
