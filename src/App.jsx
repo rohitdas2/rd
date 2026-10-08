@@ -28,13 +28,6 @@ export default function App() {
           </a>
           </div>
           {profile.introduction && <p>{profile.introduction}</p>}
-          <nav aria-label="Sections">
-            {sections.map((section) => (
-              <a key={section.id} href={`#${section.id}`}>
-                {section.label || section.title}
-              </a>
-            ))}
-          </nav>
         </header>
         {sections.map((section) => (
           <section key={section.id} id={section.id} aria-labelledby={`${section.id}-heading`}>

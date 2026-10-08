@@ -14,7 +14,7 @@ export const sections = [
     title: 'Some things about me',
     items: [
       { text: 'Grew up in Boulder, CO' },
-      { text: 'Went to Michigan because it\'s a basketball school' },
+      { text: 'Currently @ Michigan Go Blue!' },
       { text: 'I’m working on building a project called Sapor' },
       { text: 'You can always find me cooking' },
     ],
