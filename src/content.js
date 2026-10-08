@@ -4,7 +4,7 @@
 export const profile = {
   name: 'Rohit Das',
   github: 'https://github.com/rohitdas2',
-  introduction: '', // Optional short introduction beneath your name.
+  introduction: 'hi, welcome to my website', // Optional short introduction beneath your name.
 };
 
 export const sections = [
@@ -13,9 +13,9 @@ export const sections = [
     label: 'About',
     title: 'A few things about me',
     items: [
-      { text: '[A little about who I am and where I’m from.]' },
-      { text: '[What I’m doing or thinking about these days.]' },
-      { text: '[Something I enjoy outside of work.]' },
+      { text: 'I’m from Boulder Colorado and I love the outdoors' },
+      { text: 'I’m working on building a project called Sapor' },
+      { text: 'You can always find me cooking' },
     ],
   },
   {
@@ -24,10 +24,10 @@ export const sections = [
     title: 'Things I believe',
     items: [
       {
-        text: '[A value I try to live by.]',
+        text: 'A value I live by is honor',
         children: [
-          { text: '[Why this matters to me.]' },
-          { text: '[What this looks like in everyday life.]' },
+          { text: 'Having honor means doing the right thing even when it\'s hard. Honor in many ways means being disciplined and respecting your own word' },
+          { text: 'This means doing the small things like unracking weight after a lift' },
         ],
       },
       {
@@ -43,14 +43,14 @@ export const sections = [
     title: 'Things I cook',
     items: [
       {
-        text: '[A dish I like making.]',
-        children: [{ text: '[The story behind it, or a note on how I make it.]' }],
+        text: 'Peanut Butter Glazed Sweet Potatoes',
+        children: [{ text: 'When I first started trying to eat healthier I stumbled apon these. In my opinion these are the best food ever created' }],
       },
       {
-        text: '[A recipe I’m working on.]',
-        children: [{ text: '[What I’m trying differently next time.]' }],
+        text: 'I\'ve been trying to perfect my sweet potato gnocchi',
+        children: [{ text: 'The key to a good gnocchi is not using much flour, which is easier said than done' }],
       },
-      { text: '[An ingredient, technique, or recipe worth sharing.]' },
+      { text: 'From my experience, stainless steel pans are the ultimate tool and get a perfect cook on meat 9 times out of 10' },
     ],
   },
 ];
