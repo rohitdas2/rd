@@ -3,6 +3,7 @@
 // Copy any item to add another. Remove any item or section you don't need.
 export const profile = {
   name: 'Rohit Das',
+  github: 'https://github.com/rohitdas2',
   introduction: '', // Optional short introduction beneath your name.
 };
 
