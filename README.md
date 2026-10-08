@@ -1,6 +1,6 @@
 # rd
 
-A small React + Vite starter for Rohit's personal website, inspired by the simple typography and nested lists at https://nat.org. Includes About, Values, and Cooking sections. All bracketed copy is intentionally a placeholder.
+Inspired by https://nat.org. (Did you peep the irony?)
 
 ## Run locally
 
