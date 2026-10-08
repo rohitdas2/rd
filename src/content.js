@@ -22,7 +22,7 @@ export const sections = [
   {
     id: 'values',
     label: 'Values',
-    title: 'Some things I believe:',
+    title: 'Some things I believe',
     items: [
       {
         text: 'A value I live by is honor',
